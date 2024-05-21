@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.ReservationView">
+  <grid id="27dc6" binding="container" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="15" left="15" bottom="15" right="15"/>
+    <constraints>
+      <xy x="19" y="20" width="1799" height="507"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="8cdd4" binding="pnl_hotel_selec_res" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="bf00d" class="javax.swing.JLabel" binding="lbl_hotelname_res">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Hotel Name: "/>
+            </properties>
+          </component>
+          <component id="c4d43" class="javax.swing.JFormattedTextField" binding="fld_hotel_name_res">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="d6eda" binding="pnl_rooms" layout-manager="GridLayoutManager" row-count="2" column-count="13" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="19433" class="javax.swing.JLabel" binding="lbl_room_info">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="75" height="55"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="ROOM INFO"/>
+            </properties>
+          </component>
+          <component id="68a2f" class="javax.swing.JLabel" binding="lbl_pension_res">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="85" height="55"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Pension Type"/>
+            </properties>
+          </component>
+          <component id="d7f23" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="56" height="55"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Check-in"/>
+            </properties>
+          </component>
+          <component id="846bc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="8" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="66" height="55"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Check-out"/>
+            </properties>
+          </component>
+          <component id="88c41" class="javax.swing.JFormattedTextField" binding="fld_room_type_res">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="55"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="851b4" class="javax.swing.JFormattedTextField" binding="fld_pension_type_res">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="55"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="4cb42" class="javax.swing.JFormattedTextField" binding="fld_checkout_res">
+            <constraints>
+              <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="55"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="37b00" class="javax.swing.JFormattedTextField" binding="fld_checkin_res">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="55"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="b1592" class="javax.swing.JLabel" binding="lbl_totalamount_res">
+            <constraints>
+              <grid row="0" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="88" height="55"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Total Amount:"/>
+            </properties>
+          </component>
+          <component id="172e9" class="javax.swing.JFormattedTextField" binding="fld_total_amount_res">
+            <constraints>
+              <grid row="0" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="55"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="77155" class="javax.swing.JLabel" binding="lbl_room_type">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="74" height="55"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Room Type:"/>
+            </properties>
+          </component>
+          <component id="68ec3" class="javax.swing.JLabel" binding="lbl_bed_capacity_res">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="85" height="55"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Bed Capacity:"/>
+            </properties>
+          </component>
+          <component id="4fd8" class="javax.swing.JFormattedTextField" binding="fld_bed_capacity_res">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="55"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="1ddb7" class="javax.swing.JLabel" binding="lbl_square_meter">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="94" height="55"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Square Meter: "/>
+            </properties>
+          </component>
+          <component id="782eb" class="javax.swing.JFormattedTextField" binding="fld_square_meter_res">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="55"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="dfd71" class="javax.swing.JRadioButton" binding="rdo_tv_res">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="40" height="55"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="TV"/>
+            </properties>
+          </component>
+          <component id="8cbf2" class="javax.swing.JRadioButton" binding="rdo_gameconsole_res">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="114" height="55"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Game Console"/>
+            </properties>
+          </component>
+          <component id="569a4" class="javax.swing.JRadioButton" binding="rdo_projection_res">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="86" height="55"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Projection"/>
+            </properties>
+          </component>
+          <component id="6d3bd" class="javax.swing.JRadioButton" binding="rdo_cashbox_res">
+            <constraints>
+              <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="77" height="55"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="CashBox"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="173d1" layout-manager="GridLayoutManager" row-count="1" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="36f72" class="javax.swing.JRadioButton" binding="rdo_carpark">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Carpark"/>
+            </properties>
+          </component>
+          <hspacer id="f4f20">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="ce9ae" class="javax.swing.JRadioButton" binding="rdo_wifi">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Wifi"/>
+            </properties>
+          </component>
+          <component id="5b3e6" class="javax.swing.JRadioButton" binding="rdo_pool">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Pool"/>
+            </properties>
+          </component>
+          <component id="6b252" class="javax.swing.JRadioButton" binding="rdo_fitness">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Fitness"/>
+            </properties>
+          </component>
+          <component id="e75f8" class="javax.swing.JRadioButton" binding="rdo_concierge">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Concierge"/>
+            </properties>
+          </component>
+          <component id="91a3d" class="javax.swing.JRadioButton" binding="rdo_spa">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Spa"/>
+            </properties>
+          </component>
+          <component id="52aad" class="javax.swing.JRadioButton" binding="rdo_room_service">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Room service"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="1cc13" class="javax.swing.JButton" binding="btn_addreservation_res">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add Reservation"/>
+        </properties>
+      </component>
+      <grid id="daf25" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f89f6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="City:"/>
+            </properties>
+          </component>
+          <component id="f8112" class="javax.swing.JLabel" binding="lbl_star_res">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Star:"/>
+            </properties>
+          </component>
+          <component id="fe8fe" class="javax.swing.JFormattedTextField" binding="fld_city_res">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="1ddcb" class="javax.swing.JFormattedTextField" binding="fld_star_res">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="1f261" binding="pnl_pension" layout-manager="GridLayoutManager" row-count="1" column-count="12" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="fd9d0" class="javax.swing.JLabel" binding="lbl_guestinfo">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="GUEST INFO"/>
+            </properties>
+          </component>
+          <hspacer id="c69ac">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="d80f3" class="javax.swing.JLabel" binding="lbl_guestcount">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Total Guest Count: "/>
+            </properties>
+          </component>
+          <component id="cead4" class="javax.swing.JFormattedTextField" binding="fld_guest_count_res">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="38e4a" class="javax.swing.JLabel" binding="lbl_guest_name_res">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Guest Name"/>
+            </properties>
+          </component>
+          <component id="a154" class="javax.swing.JFormattedTextField" binding="fld_guest_name_res">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="73445" class="javax.swing.JLabel" binding="lbl_citizen_id_res">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Citizen ID:"/>
+            </properties>
+          </component>
+          <component id="25e8a" class="javax.swing.JFormattedTextField" binding="fld_citizen_id_res">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="fe1e" class="javax.swing.JLabel" binding="lbl_email_res">
+            <constraints>
+              <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="E-mail:"/>
+            </properties>
+          </component>
+          <component id="8b6f8" class="javax.swing.JFormattedTextField" binding="fld_email_res">
+            <constraints>
+              <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="79cf6" class="javax.swing.JLabel" binding="lbl_phone_res">
+            <constraints>
+              <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Phone:"/>
+            </properties>
+          </component>
+          <component id="7e705" class="javax.swing.JFormattedTextField" binding="fld_phone_res">
+            <constraints>
+              <grid row="0" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
